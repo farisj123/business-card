@@ -1,0 +1,87 @@
+
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family:-apple-system;
+    
+}
+
+.card:hover {
+  background-color: #b5bfa1;
+
+}
+
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #eadeda;
+    color: #30343f;
+    border-bottom: 20px solid #218380;
+        border-radius: 20px;
+     animation-duration: 3s;
+  animation-name: slidein;
+
+   
+}
+.card:hover {
+  animation-play-state: running;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+Copy to Clipboard
+In this
+
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+
+
+.border-blue {
+    border: 1px dotted blue;
+}
+img {
+  border-radius: 20px;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
